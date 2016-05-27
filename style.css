@@ -8,12 +8,14 @@ body {
     margin: 5% 7%;
     padding: 3%;
 }
-INPUT.text {
+input[type="text"] {
     border: 1px solid #ccc;
     width: 100%;
     height: 100px;
+    background: #c0c0c0;
+    outline: none;
 }
-INPUT.text:focus {
+input[type="text"]:focus {
     border: 1px solid #39c;
 }
 input.button {

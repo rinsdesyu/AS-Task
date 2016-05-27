@@ -1,0 +1,32 @@
+body {
+    color: azure;
+}
+.column {
+    background-color: #cccccc;
+    border-radius: 7px 7px 7px 7px;
+    border: 2px solid #666666;
+    margin: 5% 7%;
+    padding: 3%;
+}
+INPUT.text {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 100px;
+}
+INPUT.text:focus {
+    border: 1px solid #39c;
+}
+input.button {
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+  background: rgb(212,75,56);
+  padding: .7em 1.5em;
+  outline: none;
+} 
+input.button:hover { 
+    background: rgb(232,95,76); 
+} /* при наведении курсора мышки */
+input.button:active { 
+    background: rgb(152,15,0); 
+} /* при нажатии */
